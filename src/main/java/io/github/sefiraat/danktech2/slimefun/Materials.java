@@ -57,10 +57,10 @@ public class Materials {
                 "DK2_CELL_1",
                 Skulls.CELL_1.getPlayerHead(),
                 ThemeType.CRAFTING,
-                "Dank Cell - Tier 1",
-                "A Dank Cell serves to provide a way",
-                "to make the inside bigger than the",
-                "outside."
+                "丹克的細胞 - 等級 1",
+                "丹克的細胞提供了一種方式",
+                "使內部大於",
+                "外部."
             ),
             RecipeType.ENHANCED_CRAFTING_TABLE,
             new ItemStack[]{
@@ -77,10 +77,10 @@ public class Materials {
                 "DK2_CELL_2",
                 Skulls.CELL_2.getPlayerHead(),
                 ThemeType.CRAFTING,
-                "Dank Cell - Tier 2",
-                "A Dank Cell serves to provide a way",
-                "to make the inside bigger than the",
-                "outside."
+                "丹克的細胞 - 等級 2",
+                "丹克的細胞提供了一種方式",
+                "使內部大於",
+                "外部."
             ),
             RecipeType.ENHANCED_CRAFTING_TABLE,
             new ItemStack[]{
@@ -97,10 +97,10 @@ public class Materials {
                 "DK2_CELL_3",
                 Skulls.CELL_3.getPlayerHead(),
                 ThemeType.CRAFTING,
-                "Dank Cell - Tier 3",
-                "A Dank Cell serves to provide a way",
-                "to make the inside bigger than the",
-                "outside."
+                "丹克的細胞 - 等級 3",
+                "丹克的細胞提供了一種方式",
+                "使內部大於",
+                "外部."
             ),
             RecipeType.ENHANCED_CRAFTING_TABLE,
             new ItemStack[]{
@@ -117,10 +117,10 @@ public class Materials {
                 "DK2_CELL_4",
                 Skulls.CELL_4.getPlayerHead(),
                 ThemeType.CRAFTING,
-                "Dank Cell - Tier 4",
-                "A Dank Cell serves to provide a way",
-                "to make the inside bigger than the",
-                "outside."
+                "丹克的細胞 - 等級 4",
+                "丹克的細胞提供了一種方式",
+                "使內部大於",
+                "外部."
             ),
             RecipeType.ENHANCED_CRAFTING_TABLE,
             new ItemStack[]{
@@ -137,10 +137,10 @@ public class Materials {
                 "DK2_CELL_5",
                 Skulls.CELL_5.getPlayerHead(),
                 ThemeType.CRAFTING,
-                "Dank Cell - Tier 5",
-                "A Dank Cell serves to provide a way",
-                "to make the inside bigger than the",
-                "outside."
+                "丹克的細胞 - 等級 5",
+                "丹克的細胞提供了一種方式",
+                "使內部大於",
+                "外部."
             ),
             RecipeType.ENHANCED_CRAFTING_TABLE,
             new ItemStack[]{
@@ -157,10 +157,10 @@ public class Materials {
                 "DK2_CELL_6",
                 Skulls.CELL_6.getPlayerHead(),
                 ThemeType.CRAFTING,
-                "Dank Cell - Tier 6",
-                "A Dank Cell serves to provide a way",
-                "to make the inside bigger than the",
-                "outside."
+                "丹克的細胞 - 等級 6",
+                "丹克的細胞提供了一種方式",
+                "使內部大於",
+                "外部."
             ),
             RecipeType.ENHANCED_CRAFTING_TABLE,
             new ItemStack[]{
@@ -177,10 +177,10 @@ public class Materials {
                 "DK2_CELL_7",
                 Skulls.CELL_7.getPlayerHead(),
                 ThemeType.CRAFTING,
-                "Dank Cell - Tier 7",
-                "A Dank Cell serves to provide a way",
-                "to make the inside bigger than the",
-                "outside."
+                "丹克的細胞 - 等級 7",
+                "丹克的細胞提供了一種方式",
+                "使內部大於",
+                "外部."
             ),
             RecipeType.ENHANCED_CRAFTING_TABLE,
             new ItemStack[]{
@@ -197,10 +197,10 @@ public class Materials {
                 "DK2_CELL_8",
                 Skulls.CELL_8.getPlayerHead(),
                 ThemeType.CRAFTING,
-                "Dank Cell - Tier 8",
-                "A Dank Cell serves to provide a way",
-                "to make the inside bigger than the",
-                "outside."
+                "丹克的細胞 - 等級 8",
+                "丹克的細胞提供了一種方式",
+                "使內部大於",
+                "外部."
             ),
             RecipeType.ENHANCED_CRAFTING_TABLE,
             new ItemStack[]{
@@ -217,10 +217,10 @@ public class Materials {
                 "DK2_CELL_9",
                 Skulls.CELL_9.getPlayerHead(),
                 ThemeType.CRAFTING,
-                "Dank Cell - Tier ★",
-                "A Dank Cell serves to provide a way",
-                "to make the inside bigger than the",
-                "outside."
+                "丹克的細胞 - 等級 ★",
+                "丹克的細胞提供了一種方式",
+                "使內部大於",
+                "外部."
             ),
             RecipeType.ENHANCED_CRAFTING_TABLE,
             new ItemStack[]{

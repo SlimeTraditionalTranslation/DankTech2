@@ -57,7 +57,7 @@ public class PackListener implements Listener {
 
             if (dankPackInstance == null) {
                 player.sendMessage(MessageFormat.format(
-                    "{0}Dank Pack not crafted - creating new instance",
+                    "{0}丹克盒未製作 - 創建新實例",
                     ThemeType.WARNING.getColor())
                 );
                 dankPackInstance = generateNewDankInstance(heldItem, dankPack.getTier());
@@ -65,7 +65,7 @@ public class PackListener implements Listener {
 
             if (ConfigManager.getInstance().checkDankDeletion(dankPackInstance.getId())) {
                 player.sendMessage(MessageFormat.format(
-                    "{0}Dank Pack has been duped or deleted. Removing",
+                    "{0}丹克盒已被欺騙或刪除. 刪除",
                     ThemeType.ERROR.getColor())
                 );
                 heldItem.setAmount(0);
@@ -91,7 +91,7 @@ public class PackListener implements Listener {
 
                 if (trashPackInstance == null) {
                     player.sendMessage(MessageFormat.format(
-                        "{0}Trash Pack not crafted - creating new instance",
+                        "{0}垃圾盒未製作 - 創建新實例",
                         ThemeType.WARNING.getColor())
                     );
                     trashPackInstance = generateNewTrashInstance(heldItem, trashPack.getTier());
@@ -110,7 +110,7 @@ public class PackListener implements Listener {
         player.spigot().sendMessage(
             ChatMessageType.ACTION_BAR,
             TextComponent.fromLegacyText(MessageFormat.format(
-                "{0}Selected slot: [{1}] - [{2}]",
+                "{0}選定的欄位: [{1}] - [{2}]",
                 ThemeType.SUCCESS.getColor(),
                 slot + 1,
                 name)
@@ -126,7 +126,7 @@ public class PackListener implements Listener {
             player.spigot().sendMessage(
                 ChatMessageType.ACTION_BAR,
                 TextComponent.fromLegacyText(MessageFormat.format(
-                    "{0}Not enough {1} left!",
+                    "{0}不夠 {1} 剩下!",
                     ThemeType.ERROR.getColor(),
                     ThemeType.toTitleCase(stackToPlace.getType().toString()))
                 )
@@ -135,7 +135,7 @@ public class PackListener implements Listener {
             player.spigot().sendMessage(
                 ChatMessageType.ACTION_BAR,
                 TextComponent.fromLegacyText(MessageFormat.format(
-                    "{0}{1} cannot be placed like this.",
+                    "{0}{1} 不能這樣放置.",
                     ThemeType.ERROR.getColor(),
                     ThemeType.toTitleCase(stackToPlace.getType().toString()))
                 )

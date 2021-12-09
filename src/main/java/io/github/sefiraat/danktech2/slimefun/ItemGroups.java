@@ -19,7 +19,7 @@ public final class ItemGroups {
         Keys.newKey("main"),
         new CustomItemStack(
             Skulls.MAIN_HEAD.getPlayerHead(),
-            ThemeType.MAIN.getColor() + "DankTech2"
+            ThemeType.MAIN.getColor() + "丹克科技2"
         )
     );
 
@@ -28,7 +28,7 @@ public final class ItemGroups {
         MAIN,
         new CustomItemStack(
             Skulls.CELL_9.getPlayerHead(),
-            ThemeType.MAIN.getColor() + "Materials"
+            ThemeType.MAIN.getColor() + "材料"
         )
     );
 
@@ -37,7 +37,7 @@ public final class ItemGroups {
         MAIN,
         new CustomItemStack(
             Skulls.PACK_9.getPlayerHead(),
-            ThemeType.MAIN.getColor() + "Dank and Trash Packs"
+            ThemeType.MAIN.getColor() + "丹克盒和垃圾盒"
         )
     );
 
@@ -46,7 +46,7 @@ public final class ItemGroups {
         MAIN,
         new CustomItemStack(
             new ItemStack(Material.CRAFTING_TABLE),
-            ThemeType.MAIN.getColor() + "Dank Machinery"
+            ThemeType.MAIN.getColor() + "丹克機械"
         )
     );
 

@@ -66,7 +66,7 @@ public class ConfigManager {
     }
 
     public void saveAll() {
-        DankTech2.getInstance().getLogger().info("DankTech2 saving data.");
+        DankTech2.getInstance().getLogger().info("丹克科技2 保存數據.");
         saveConfig(dankPacks, "dank_packs.yml");
     }
 

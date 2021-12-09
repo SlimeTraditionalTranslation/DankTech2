@@ -159,14 +159,14 @@ public class DankUnloader extends SlimefunItem {
 
             @Override
             public void newInstance(@NotNull BlockMenu menu, @NotNull Block b) {
-                String slotInfoString = BlockStorage.getLocationInfo(menu.getLocation(), "slots");
-                String standInfoString = BlockStorage.getLocationInfo(menu.getLocation(), "stand");
+                String slotInfoString = BlockStorage.getLocationInfo(menu.getLocation(), "欄位");
+                String standInfoString = BlockStorage.getLocationInfo(menu.getLocation(), "台上");
 
                 // Toggle States
                 Boolean[] booleans = new Boolean[9];
                 if (slotInfoString == null) {
                     booleans = new Boolean[]{false, false, false, false, false, false, false, false, false};
-                    BlockStorage.addBlockInfo(menu.getLocation(), "slots", Arrays.toString(booleans));
+                    BlockStorage.addBlockInfo(menu.getLocation(), "欄位", Arrays.toString(booleans));
                 } else {
                     int i = 0;
                     Iterable<String> strings = Splitter.on(",")
@@ -202,7 +202,7 @@ public class DankUnloader extends SlimefunItem {
                     Location spawnLocation = menu.getLocation().clone().add(0.5, -1.3, 0.5);
                     armorStand = (ArmorStand) spawnLocation.getWorld().spawnEntity(spawnLocation, EntityType.ARMOR_STAND);
                     ArmourStandUtils.setDisplay(armorStand);
-                    BlockStorage.addBlockInfo(menu.getLocation(), "stand", armorStand.getUniqueId().toString());
+                    BlockStorage.addBlockInfo(menu.getLocation(), "台上", armorStand.getUniqueId().toString());
                 } else {
                     armorStand = (ArmorStand) Bukkit.getEntity(UUID.fromString(standInfoString));
                 }
@@ -228,7 +228,7 @@ public class DankUnloader extends SlimefunItem {
     private void syncBlockInfo(BlockMenu menu) {
         BlockStorage.addBlockInfo(
             menu.getLocation(),
-            "slots",
+            "欄位",
             Arrays.toString(toggleStates.get(menu.getLocation()))
         );
     }
@@ -263,16 +263,16 @@ public class DankUnloader extends SlimefunItem {
     private static ItemStack getSlotOnStack(int slot) {
         return new CustomItemStack(
             Material.LIME_STAINED_GLASS_PANE,
-            ThemeType.CLICK_INFO.getColor() + "Unloading Slot " + slot,
-            ThemeType.PASSIVE.getColor() + "Click to toggle unloading."
+            ThemeType.CLICK_INFO.getColor() + "卸載欄位 " + slot,
+            ThemeType.PASSIVE.getColor() + "點擊切換卸載."
         );
     }
 
     private static ItemStack getSlotOffStack(int slot) {
         return new CustomItemStack(
             Material.RED_STAINED_GLASS_PANE,
-            ThemeType.CLICK_INFO.getColor() + "Not Unloading Slot " + slot,
-            ThemeType.PASSIVE.getColor() + "Click to toggle unloading."
+            ThemeType.CLICK_INFO.getColor() + "不卸載欄位 " + slot,
+            ThemeType.PASSIVE.getColor() + "點擊切換卸載."
         );
     }
 }

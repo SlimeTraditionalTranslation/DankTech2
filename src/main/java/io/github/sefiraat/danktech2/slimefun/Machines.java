@@ -31,8 +31,8 @@ public class Machines {
                 "DK2_CRAFTER_1",
                 new ItemStack(Material.JUKEBOX),
                 ThemeType.MACHINE,
-                "Dank Crafter",
-                "Crafts and upgrades Dank Packs."
+                "丹克工匠",
+                "工匠和升級丹克背包."
             ),
             RecipeType.ENHANCED_CRAFTING_TABLE,
             new ItemStack[]{
@@ -49,8 +49,8 @@ public class Machines {
                 "DK2_UNLOADER_1",
                 new ItemStack(Material.GLASS),
                 ThemeType.MACHINE,
-                "Dank Unloader",
-                "Pulls out items from your Dank Packs"
+                "丹克卸載機",
+                "從你丹克的背包取出物品"
             ),
             RecipeType.ENHANCED_CRAFTING_TABLE,
             new ItemStack[]{

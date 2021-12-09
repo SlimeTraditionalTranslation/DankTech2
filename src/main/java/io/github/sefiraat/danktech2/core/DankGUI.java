@@ -39,15 +39,15 @@ public class DankGUI extends ChestMenu {
 
     protected static final ItemStack EMPTY_STACK = new CustomItemStack(
         Skulls.GUI_EMPTY.getPlayerHead(),
-        MessageFormat.format("{0}Slot Empty", ThemeType.PASSIVE.getColor())
+        MessageFormat.format("{0}空欄位", ThemeType.PASSIVE.getColor())
     );
     protected static final ItemStack LOCKED_STACK = new CustomItemStack(
         Material.RED_STAINED_GLASS_PANE,
-        MessageFormat.format("{0}Slot Locked", ThemeType.PASSIVE.getColor())
+        MessageFormat.format("{0}鎖定欄位", ThemeType.PASSIVE.getColor())
     );
     protected static final ItemStack INPUT_STACK = new CustomItemStack(
         Material.LIGHT_GRAY_STAINED_GLASS_PANE,
-        MessageFormat.format("{0}Input", ThemeType.PASSIVE.getColor())
+        MessageFormat.format("{0}輸入", ThemeType.PASSIVE.getColor())
     );
 
 
@@ -56,7 +56,7 @@ public class DankGUI extends ChestMenu {
     private final DankPack dankPack;
 
     public DankGUI(DankPackInstance packInstance, ItemStack itemStack) {
-        super("Dank Pack - Tier " + packInstance.getTier());
+        super("丹克盒 - 等級 " + packInstance.getTier());
         this.packInstance = packInstance;
         this.itemStack = itemStack;
         this.dankPack = (DankPack) SlimefunItem.getByItem(itemStack);
@@ -299,25 +299,25 @@ public class DankGUI extends ChestMenu {
 
     protected static ItemStack getInteractionStack(int amount) {
         return new CustomItemStack(
-            Skulls.GUI_WITHDRAW.getPlayerHead(), ThemeType.CLICK_INFO.getColor() + "Add/Withdraw Items",
+            Skulls.GUI_WITHDRAW.getPlayerHead(), ThemeType.CLICK_INFO.getColor() + "新增/提取 物品",
             "",
-            MessageFormat.format("{0}Left Click: {1}Withdraw One", ThemeType.CLICK_INFO.getColor(), ThemeType.PASSIVE.getColor()),
-            MessageFormat.format("{0}Right Click: {1}Withdraw Stack", ThemeType.CLICK_INFO.getColor(), ThemeType.PASSIVE.getColor()),
-            MessageFormat.format("{0}Shift Left Click: {1}Input Whole Inventory", ThemeType.CLICK_INFO.getColor(), ThemeType.PASSIVE.getColor()),
-            MessageFormat.format("{0}Shift Right Click: {1}Fill Inventory", ThemeType.CLICK_INFO.getColor(), ThemeType.PASSIVE.getColor()),
+            MessageFormat.format("{0}左鍵點擊: {1}收回一個", ThemeType.CLICK_INFO.getColor(), ThemeType.PASSIVE.getColor()),
+            MessageFormat.format("{0}右鍵點擊: {1}收回堆棧", ThemeType.CLICK_INFO.getColor(), ThemeType.PASSIVE.getColor()),
+            MessageFormat.format("{0}Shift+左鍵點擊: {1}輸入整個庫存", ThemeType.CLICK_INFO.getColor(), ThemeType.PASSIVE.getColor()),
+            MessageFormat.format("{0}Shift+右鍵點擊: {1}填充庫存", ThemeType.CLICK_INFO.getColor(), ThemeType.PASSIVE.getColor()),
             "",
-            MessageFormat.format("{0}Amount: {1}{2}", ThemeType.CLICK_INFO.getColor(), ThemeType.PASSIVE.getColor(), amount)
+            MessageFormat.format("{0}數量: {1}{2}", ThemeType.CLICK_INFO.getColor(), ThemeType.PASSIVE.getColor(), amount)
         );
     }
 
     protected static ItemStack getInfoStack(ItemStack itemStack, int tier, int max) {
         return new CustomItemStack(
             itemStack.clone(),
-            MessageFormat.format("{0}Dank Pack Info", ThemeType.CLICK_INFO.getColor()),
+            MessageFormat.format("{0}丹克盒資訊", ThemeType.CLICK_INFO.getColor()),
             "",
-            MessageFormat.format("{0}Tier: {1}{2}", ThemeType.CLICK_INFO.getColor(), ThemeType.PASSIVE.getColor(), tier),
-            MessageFormat.format("{0}Slots: {1}{2}", ThemeType.CLICK_INFO.getColor(), ThemeType.PASSIVE.getColor(), tier),
-            MessageFormat.format("{0}Max Per Slot: {1}{2}", ThemeType.CLICK_INFO.getColor(), ThemeType.PASSIVE.getColor(), max)
+            MessageFormat.format("{0}等級: {1}{2}", ThemeType.CLICK_INFO.getColor(), ThemeType.PASSIVE.getColor(), tier),
+            MessageFormat.format("{0}欄位: {1}{2}", ThemeType.CLICK_INFO.getColor(), ThemeType.PASSIVE.getColor(), tier),
+            MessageFormat.format("{0}每個最大欄位: {1}{2}", ThemeType.CLICK_INFO.getColor(), ThemeType.PASSIVE.getColor(), max)
         );
     }
 }

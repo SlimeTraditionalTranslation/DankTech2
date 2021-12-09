@@ -114,7 +114,7 @@ public class DankTech2 extends JavaPlugin implements SlimefunAddon {
         for (ItemStack dank : ConfigManager.getInstance().getAllPacks()) {
 
             if (dank == null) {
-                getLogger().warning("Bad Dank");
+                getLogger().warning("壞丹克");
                 continue;
             }
 
@@ -124,7 +124,7 @@ public class DankTech2 extends JavaPlugin implements SlimefunAddon {
                 PersistentDankInstanceType.TYPE
             );
 
-            Integer dankAmount = dankValues.get("Tier " + dankPackInstance.getTier());
+            Integer dankAmount = dankValues.get("等級 " + dankPackInstance.getTier());
 
             if (dankAmount == null) {
                 dankAmount = 1;
@@ -132,7 +132,7 @@ public class DankTech2 extends JavaPlugin implements SlimefunAddon {
                 dankAmount++;
             }
 
-            dankValues.put("Tier " + dankPackInstance.getTier(), dankAmount);
+            dankValues.put("等級 " + dankPackInstance.getTier(), dankAmount);
 
             for (int i = 0; i < dankPackInstance.getTier(); i++) {
                 final ItemStack heldItem = dankPackInstance.getItem(i);
