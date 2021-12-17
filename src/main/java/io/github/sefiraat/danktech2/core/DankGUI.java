@@ -302,7 +302,7 @@ public class DankGUI extends ChestMenu {
             Skulls.GUI_WITHDRAW.getPlayerHead(), ThemeType.CLICK_INFO.getColor() + "新增/提取 物品",
             "",
             MessageFormat.format("{0}左鍵點擊: {1}收回一個", ThemeType.CLICK_INFO.getColor(), ThemeType.PASSIVE.getColor()),
-            MessageFormat.format("{0}右鍵點擊: {1}收回堆棧", ThemeType.CLICK_INFO.getColor(), ThemeType.PASSIVE.getColor()),
+            MessageFormat.format("{0}右鍵點擊: {1}收回一組", ThemeType.CLICK_INFO.getColor(), ThemeType.PASSIVE.getColor()),
             MessageFormat.format("{0}Shift+左鍵點擊: {1}輸入整個庫存", ThemeType.CLICK_INFO.getColor(), ThemeType.PASSIVE.getColor()),
             MessageFormat.format("{0}Shift+右鍵點擊: {1}填充庫存", ThemeType.CLICK_INFO.getColor(), ThemeType.PASSIVE.getColor()),
             "",
@@ -313,7 +313,7 @@ public class DankGUI extends ChestMenu {
     protected static ItemStack getInfoStack(ItemStack itemStack, int tier, int max) {
         return new CustomItemStack(
             itemStack.clone(),
-            MessageFormat.format("{0}丹克盒資訊", ThemeType.CLICK_INFO.getColor()),
+            MessageFormat.format("{0}丹克包資訊", ThemeType.CLICK_INFO.getColor()),
             "",
             MessageFormat.format("{0}等級: {1}{2}", ThemeType.CLICK_INFO.getColor(), ThemeType.PASSIVE.getColor(), tier),
             MessageFormat.format("{0}欄位: {1}{2}", ThemeType.CLICK_INFO.getColor(), ThemeType.PASSIVE.getColor(), tier),

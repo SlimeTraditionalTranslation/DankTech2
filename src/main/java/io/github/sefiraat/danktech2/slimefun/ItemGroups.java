@@ -37,7 +37,7 @@ public final class ItemGroups {
         MAIN,
         new CustomItemStack(
             Skulls.PACK_9.getPlayerHead(),
-            ThemeType.MAIN.getColor() + "丹克盒和垃圾盒"
+            ThemeType.MAIN.getColor() + "丹克包和垃圾包"
         )
     );
 

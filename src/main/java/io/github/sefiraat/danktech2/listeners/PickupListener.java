@@ -68,7 +68,7 @@ public class PickupListener implements Listener {
 
         if (ConfigManager.getInstance().checkDankDeletion(instance.getId())) {
             player.sendMessage(MessageFormat.format(
-                "{0}你的丹克盒已被欺騙或刪除. 刪除",
+                "{0}你的丹克包已被複製或刪除. 刪除中",
                 ThemeType.ERROR.getColor())
             );
             pack.setAmount(0);

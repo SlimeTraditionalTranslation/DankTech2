@@ -57,7 +57,7 @@ public class PackListener implements Listener {
 
             if (dankPackInstance == null) {
                 player.sendMessage(MessageFormat.format(
-                    "{0}丹克盒未製作 - 創建新實例",
+                    "{0}丹克包未製作 - 創建新實例",
                     ThemeType.WARNING.getColor())
                 );
                 dankPackInstance = generateNewDankInstance(heldItem, dankPack.getTier());
@@ -65,7 +65,7 @@ public class PackListener implements Listener {
 
             if (ConfigManager.getInstance().checkDankDeletion(dankPackInstance.getId())) {
                 player.sendMessage(MessageFormat.format(
-                    "{0}丹克盒已被欺騙或刪除. 刪除",
+                    "{0}丹克包已被複製或刪除. 刪除中",
                     ThemeType.ERROR.getColor())
                 );
                 heldItem.setAmount(0);
@@ -91,7 +91,7 @@ public class PackListener implements Listener {
 
                 if (trashPackInstance == null) {
                     player.sendMessage(MessageFormat.format(
-                        "{0}垃圾盒未製作 - 創建新實例",
+                        "{0}垃圾包未製作 - 創建新實例",
                         ThemeType.WARNING.getColor())
                     );
                     trashPackInstance = generateNewTrashInstance(heldItem, trashPack.getTier());

@@ -142,7 +142,7 @@ public class AdminGUI extends ChestMenu {
         lore.add(MessageFormat.format("{0}左鍵點擊: {1}開啟丹克", ThemeType.CLICK_INFO.getColor(), ThemeType.PASSIVE.getColor()));
         lore.add(MessageFormat.format("{0}右鍵點擊: {1}克隆丹克", ThemeType.CLICK_INFO.getColor(), ThemeType.PASSIVE.getColor()));
         lore.add("");
-        lore.add(MessageFormat.format("{0}警告 - 克隆一個丹克盒", ThemeType.ERROR.getColor()));
+        lore.add(MessageFormat.format("{0}警告 - 克隆一個丹克包", ThemeType.ERROR.getColor()));
         lore.add(MessageFormat.format("{0}將刪除原來的和", ThemeType.ERROR.getColor()));
         lore.add(MessageFormat.format("{0}從玩家背包中刪除它們", ThemeType.ERROR.getColor()));
         lore.add(MessageFormat.format("{0}和卸貨機", ThemeType.ERROR.getColor()));

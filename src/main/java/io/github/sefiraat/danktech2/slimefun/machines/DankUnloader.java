@@ -264,7 +264,7 @@ public class DankUnloader extends SlimefunItem {
         return new CustomItemStack(
             Material.LIME_STAINED_GLASS_PANE,
             ThemeType.CLICK_INFO.getColor() + "卸載欄位 " + slot,
-            ThemeType.PASSIVE.getColor() + "點擊切換卸載."
+            ThemeType.PASSIVE.getColor() + "點擊切換不卸載."
         );
     }
 
