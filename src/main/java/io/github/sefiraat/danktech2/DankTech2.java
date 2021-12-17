@@ -16,8 +16,8 @@ import io.github.sefiraat.danktech2.utils.datatypes.DataTypeMethods;
 import io.github.sefiraat.danktech2.utils.datatypes.PersistentDankInstanceType;
 import io.github.thebusybiscuit.slimefun4.api.SlimefunAddon;
 import io.github.thebusybiscuit.slimefun4.libraries.dough.updater.GitHubBuildsUpdater;
-import org.bstats.bukkit.Metrics;
-import org.bstats.charts.AdvancedPie;
+//import org.bstats.bukkit.Metrics;
+//import org.bstats.charts.AdvancedPie;
 import org.bukkit.inventory.ItemStack;
 import org.bukkit.inventory.meta.ItemMeta;
 import org.bukkit.plugin.PluginManager;
@@ -69,7 +69,7 @@ public class DankTech2 extends JavaPlugin implements SlimefunAddon {
 
         this.getCommand("danktech2").setExecutor(new DankTechMain());
 
-        setupMetrics();
+        //setupMetrics();
     }
 
     @Override
@@ -103,10 +103,10 @@ public class DankTech2 extends JavaPlugin implements SlimefunAddon {
     @Nullable
     @Override
     public String getBugTrackerURL() {
-        return MessageFormat.format("https://github.com/{0}/{1}/issues/", this.username, this.repo);
+        return "https://github.com/SlimeTraditionalTranslation/DankTech2/issues/";
     }
 
-    public void setupMetrics() {
+    /*public void setupMetrics() {
         final Metrics metrics = new Metrics(this, 13399);
         final Map<String, Integer> dankValues = new HashMap<>();
         final Map<String, Integer> heldItemValues = new HashMap<>();
@@ -114,7 +114,7 @@ public class DankTech2 extends JavaPlugin implements SlimefunAddon {
         for (ItemStack dank : ConfigManager.getInstance().getAllPacks()) {
 
             if (dank == null) {
-                getLogger().warning("壞丹克");
+                getLogger().warning("Bad Dank");
                 continue;
             }
 
@@ -124,7 +124,7 @@ public class DankTech2 extends JavaPlugin implements SlimefunAddon {
                 PersistentDankInstanceType.TYPE
             );
 
-            Integer dankAmount = dankValues.get("等級 " + dankPackInstance.getTier());
+            Integer dankAmount = dankValues.get("Tier " + dankPackInstance.getTier());
 
             if (dankAmount == null) {
                 dankAmount = 1;
@@ -132,7 +132,7 @@ public class DankTech2 extends JavaPlugin implements SlimefunAddon {
                 dankAmount++;
             }
 
-            dankValues.put("等級 " + dankPackInstance.getTier(), dankAmount);
+            dankValues.put("Tier " + dankPackInstance.getTier(), dankAmount);
 
             for (int i = 0; i < dankPackInstance.getTier(); i++) {
                 final ItemStack heldItem = dankPackInstance.getItem(i);
@@ -163,7 +163,7 @@ public class DankTech2 extends JavaPlugin implements SlimefunAddon {
 
         metrics.addCustomChart(danksChart);
         metrics.addCustomChart(heldItemsChart);
-    }
+    }*/
 
     public static DankTech2 getInstance() {
         return DankTech2.instance;

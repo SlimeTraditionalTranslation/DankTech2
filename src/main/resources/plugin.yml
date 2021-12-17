@@ -1,6 +1,6 @@
 name: DankTech2
 author: Sefiraat
-description: An Addon to Slimefun4 that adds new forms of mass-storage backpacks.
+description: 黏液科技附加 丹克科技2 繁體翻譯版.
 main: io.github.sefiraat.danktech2.DankTech2
 website: https://github.com/Sefiraat/DankTech2
 version: ${project.version}
