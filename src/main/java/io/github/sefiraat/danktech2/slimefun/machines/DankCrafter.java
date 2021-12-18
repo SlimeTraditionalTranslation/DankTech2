@@ -58,7 +58,7 @@ public class DankCrafter extends SlimefunItem {
         new CustomItemStack(
             Material.JUKEBOX,
             "丹克升級",
-            "在丹克的工匠中製作"
+            "在丹克製作台中製作"
         ),
         DankCrafter::addRecipe
     );

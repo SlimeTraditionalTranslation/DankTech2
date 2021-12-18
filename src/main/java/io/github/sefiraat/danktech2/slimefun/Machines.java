@@ -50,7 +50,7 @@ public class Machines {
                 new ItemStack(Material.GLASS),
                 ThemeType.MACHINE,
                 "丹克卸載機",
-                "從你丹克包取出物品"
+                "從你的丹克包取出物品"
             ),
             RecipeType.ENHANCED_CRAFTING_TABLE,
             new ItemStack[]{
