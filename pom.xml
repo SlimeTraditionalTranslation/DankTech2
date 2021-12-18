@@ -6,7 +6,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>io.github.sefiraat</groupId>
     <artifactId>DankTech2</artifactId>
-    <version>MODIFIED</version>
+    <version>hyuk 1.0</version>
 
     <properties>
         <maven.compiler.source>1.8</maven.compiler.source>

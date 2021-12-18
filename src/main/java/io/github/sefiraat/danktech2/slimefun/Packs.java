@@ -73,9 +73,9 @@ public class Packs {
                 "DK2_PACK_1",
                 Skulls.PACK_1.getPlayerHead(),
                 ThemeType.T1,
-                "Dank Pack",
-                "A Dank Pack can hold many items",
-                "inside it."
+                "丹克包",
+                "一個丹克包可以裝很多東西",
+                "在裡面."
             ),
             DankCrafter.TYPE,
             new ItemStack[]{
@@ -93,9 +93,9 @@ public class Packs {
                 "DK2_PACK_2",
                 Skulls.PACK_2.getPlayerHead(),
                 ThemeType.T2,
-                "Dank Pack",
-                "A Dank Pack can hold many items",
-                "inside it."
+                "丹克包",
+                "一個丹克包可以裝很多東西",
+                "在裡面."
             ),
             DankCrafter.TYPE,
             new ItemStack[]{
@@ -113,9 +113,9 @@ public class Packs {
                 "DK2_PACK_3",
                 Skulls.PACK_3.getPlayerHead(),
                 ThemeType.T3,
-                "Dank Pack",
-                "A Dank Pack can hold many items",
-                "inside it."
+                "丹克包",
+                "一個丹克包可以裝很多東西",
+                "在裡面."
             ),
             DankCrafter.TYPE,
             new ItemStack[]{
@@ -133,9 +133,9 @@ public class Packs {
                 "DK2_PACK_4",
                 Skulls.PACK_4.getPlayerHead(),
                 ThemeType.T4,
-                "Dank Pack",
-                "A Dank Pack can hold many items",
-                "inside it."
+                "丹克包",
+                "一個丹克包可以裝很多東西",
+                "在裡面."
             ),
             DankCrafter.TYPE,
             new ItemStack[]{
@@ -153,9 +153,9 @@ public class Packs {
                 "DK2_PACK_5",
                 Skulls.PACK_5.getPlayerHead(),
                 ThemeType.T5,
-                "Dank Pack",
-                "A Dank Pack can hold many items",
-                "inside it."
+                "丹克包",
+                "一個丹克包可以裝很多東西",
+                "在裡面."
             ),
             DankCrafter.TYPE,
             new ItemStack[]{
@@ -173,9 +173,9 @@ public class Packs {
                 "DK2_PACK_6",
                 Skulls.PACK_6.getPlayerHead(),
                 ThemeType.T6,
-                "Dank Pack",
-                "A Dank Pack can hold many items",
-                "inside it."
+                "丹克包",
+                "一個丹克包可以裝很多東西",
+                "在裡面."
             ),
             DankCrafter.TYPE,
             new ItemStack[]{
@@ -193,9 +193,9 @@ public class Packs {
                 "DK2_PACK_7",
                 Skulls.PACK_7.getPlayerHead(),
                 ThemeType.T7,
-                "Dank Pack",
-                "A Dank Pack can hold many items",
-                "inside it."
+                "丹克包",
+                "一個丹克包可以裝很多東西",
+                "在裡面."
             ),
             DankCrafter.TYPE,
             new ItemStack[]{
@@ -213,9 +213,9 @@ public class Packs {
                 "DK2_PACK_8",
                 Skulls.PACK_8.getPlayerHead(),
                 ThemeType.T8,
-                "Dank Pack",
-                "A Dank Pack can hold many items",
-                "inside it."
+                "丹克包",
+                "一個丹克包可以裝很多東西",
+                "在裡面."
             ),
             DankCrafter.TYPE,
             new ItemStack[]{
@@ -233,9 +233,9 @@ public class Packs {
                 "DK2_PACK_9",
                 Skulls.PACK_9.getPlayerHead(),
                 ThemeType.T9,
-                "Dank Pack",
-                "A Dank Pack can hold many items",
-                "inside it."
+                "丹克包",
+                "一個丹克包可以裝很多東西",
+                "在裡面."
             ),
             DankCrafter.TYPE,
             new ItemStack[]{
@@ -253,9 +253,9 @@ public class Packs {
                 "DK2_TRASH_1",
                 Skulls.TRASH_1.getPlayerHead(),
                 ThemeType.T1,
-                "Trash Pack",
-                "A Dank Pack can hold many items",
-                "inside it."
+                "垃圾包",
+                "一個丹克包可以裝很多東西",
+                "在裡面."
             ),
             DankCrafter.TYPE,
             new ItemStack[]{
@@ -272,9 +272,9 @@ public class Packs {
                 "DK2_TRASH_2",
                 Skulls.TRASH_2.getPlayerHead(),
                 ThemeType.T2,
-                "Trash Pack",
-                "A Dank Pack can hold many items",
-                "inside it."
+                "垃圾包",
+                "一個丹克包可以裝很多東西",
+                "在裡面."
             ),
             DankCrafter.TYPE,
             new ItemStack[]{
@@ -291,9 +291,9 @@ public class Packs {
                 "DK2_TRASH_3",
                 Skulls.TRASH_3.getPlayerHead(),
                 ThemeType.T3,
-                "Trash Pack",
-                "A Dank Pack can hold many items",
-                "inside it."
+                "垃圾包",
+                "一個丹克包可以裝很多東西",
+                "在裡面."
             ),
             DankCrafter.TYPE,
             new ItemStack[]{
@@ -310,9 +310,9 @@ public class Packs {
                 "DK2_TRASH_4",
                 Skulls.TRASH_4.getPlayerHead(),
                 ThemeType.T4,
-                "Trash Pack",
-                "A Dank Pack can hold many items",
-                "inside it."
+                "垃圾包",
+                "一個丹克包可以裝很多東西",
+                "在裡面."
             ),
             DankCrafter.TYPE,
             new ItemStack[]{
@@ -329,9 +329,9 @@ public class Packs {
                 "DK2_TRASH_5",
                 Skulls.TRASH_5.getPlayerHead(),
                 ThemeType.T5,
-                "Trash Pack",
-                "A Dank Pack can hold many items",
-                "inside it."
+                "垃圾包",
+                "一個丹克包可以裝很多東西",
+                "在裡面."
             ),
             DankCrafter.TYPE,
             new ItemStack[]{
@@ -348,9 +348,9 @@ public class Packs {
                 "DK2_TRASH_6",
                 Skulls.TRASH_6.getPlayerHead(),
                 ThemeType.T6,
-                "Trash Pack",
-                "A Dank Pack can hold many items",
-                "inside it."
+                "垃圾包",
+                "一個丹克包可以裝很多東西",
+                "在裡面."
             ),
             DankCrafter.TYPE,
             new ItemStack[]{
@@ -367,9 +367,9 @@ public class Packs {
                 "DK2_TRASH_7",
                 Skulls.TRASH_7.getPlayerHead(),
                 ThemeType.T7,
-                "Trash Pack",
-                "A Dank Pack can hold many items",
-                "inside it."
+                "垃圾包",
+                "一個丹克包可以裝很多東西",
+                "在裡面."
             ),
             DankCrafter.TYPE,
             new ItemStack[]{
@@ -386,9 +386,9 @@ public class Packs {
                 "DK2_TRASH_8",
                 Skulls.TRASH_8.getPlayerHead(),
                 ThemeType.T8,
-                "Trash Pack",
-                "A Dank Pack can hold many items",
-                "inside it."
+                "垃圾包",
+                "一個丹克包可以裝很多東西",
+                "在裡面."
             ),
             DankCrafter.TYPE,
             new ItemStack[]{
@@ -405,9 +405,9 @@ public class Packs {
                 "DK2_TRASH_9",
                 Skulls.TRASH_9.getPlayerHead(),
                 ThemeType.T9,
-                "Trash Pack",
-                "A Dank Pack can hold many items",
-                "inside it."
+                "垃圾包",
+                "一個丹克包可以裝很多東西",
+                "在裡面."
             ),
             DankCrafter.TYPE,
             new ItemStack[]{

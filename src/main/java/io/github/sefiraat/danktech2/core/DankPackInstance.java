@@ -10,7 +10,7 @@ public class DankPackInstance {
     private int tier;
     private ItemStack[] items = new ItemStack[9];
     private int[] amounts = new int[9];
-    private String lastUser = "Unknown";
+    private String lastUser = "未知";
 
     public DankPackInstance(long id, int tier) {
         this.tier = tier;
