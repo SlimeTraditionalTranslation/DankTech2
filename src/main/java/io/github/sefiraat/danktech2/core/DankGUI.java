@@ -56,7 +56,7 @@ public class DankGUI extends ChestMenu {
     private final DankPack dankPack;
 
     public DankGUI(DankPackInstance packInstance, ItemStack itemStack) {
-        super("丹克盒 - 等級 " + packInstance.getTier());
+        super("丹克包 - 等級 " + packInstance.getTier());
         this.packInstance = packInstance;
         this.itemStack = itemStack;
         this.dankPack = (DankPack) SlimefunItem.getByItem(itemStack);
@@ -301,10 +301,10 @@ public class DankGUI extends ChestMenu {
         return new CustomItemStack(
             Skulls.GUI_WITHDRAW.getPlayerHead(), ThemeType.CLICK_INFO.getColor() + "新增/提取 物品",
             "",
-            MessageFormat.format("{0}左鍵點擊: {1}收回一個", ThemeType.CLICK_INFO.getColor(), ThemeType.PASSIVE.getColor()),
-            MessageFormat.format("{0}右鍵點擊: {1}收回一組", ThemeType.CLICK_INFO.getColor(), ThemeType.PASSIVE.getColor()),
-            MessageFormat.format("{0}Shift+左鍵點擊: {1}輸入整個庫存", ThemeType.CLICK_INFO.getColor(), ThemeType.PASSIVE.getColor()),
-            MessageFormat.format("{0}Shift+右鍵點擊: {1}填充庫存", ThemeType.CLICK_INFO.getColor(), ThemeType.PASSIVE.getColor()),
+            MessageFormat.format("{0}左鍵點擊: {1}提取一個", ThemeType.CLICK_INFO.getColor(), ThemeType.PASSIVE.getColor()),
+            MessageFormat.format("{0}右鍵點擊: {1}提取一組", ThemeType.CLICK_INFO.getColor(), ThemeType.PASSIVE.getColor()),
+            MessageFormat.format("{0}Shift+左鍵點擊: {1}輸入整個物品欄", ThemeType.CLICK_INFO.getColor(), ThemeType.PASSIVE.getColor()),
+            MessageFormat.format("{0}Shift+右鍵點擊: {1}填充物品欄", ThemeType.CLICK_INFO.getColor(), ThemeType.PASSIVE.getColor()),
             "",
             MessageFormat.format("{0}數量: {1}{2}", ThemeType.CLICK_INFO.getColor(), ThemeType.PASSIVE.getColor(), amount)
         );

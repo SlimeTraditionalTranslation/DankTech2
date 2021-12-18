@@ -25,11 +25,11 @@ public class AdminGUI extends ChestMenu {
 
     protected static final ItemStack PAGE_BACK_STACK = new CustomItemStack(
         Material.PAPER,
-        MessageFormat.format("{0}頁面返回", ThemeType.PASSIVE.getColor())
+        MessageFormat.format("{0}上一頁", ThemeType.PASSIVE.getColor())
     );
     protected static final ItemStack PAGE_FORWARD_STACK = new CustomItemStack(
         Material.PAPER,
-        MessageFormat.format("{0}翻頁", ThemeType.PASSIVE.getColor())
+        MessageFormat.format("{0}下一頁", ThemeType.PASSIVE.getColor())
     );
     protected static final ItemStack EMPTY_STACK = new CustomItemStack(
         Material.LIGHT_GRAY_STAINED_GLASS_PANE,
@@ -145,9 +145,9 @@ public class AdminGUI extends ChestMenu {
         lore.add(MessageFormat.format("{0}警告 - 克隆一個丹克包", ThemeType.ERROR.getColor()));
         lore.add(MessageFormat.format("{0}將刪除原來的和", ThemeType.ERROR.getColor()));
         lore.add(MessageFormat.format("{0}從玩家背包中刪除它們", ThemeType.ERROR.getColor()));
-        lore.add(MessageFormat.format("{0}和卸貨機", ThemeType.ERROR.getColor()));
+        lore.add(MessageFormat.format("{0}和卸載機", ThemeType.ERROR.getColor()));
         lore.add("");
-        lore.add(MessageFormat.format("{0}最後用戶: {1}{2}", ThemeType.CLICK_INFO.getColor(), ThemeType.PASSIVE.getColor(), dankPackInstance.getLastUser()));
+        lore.add(MessageFormat.format("{0}最後使用者: {1}{2}", ThemeType.CLICK_INFO.getColor(), ThemeType.PASSIVE.getColor(), dankPackInstance.getLastUser()));
         displayMeta.setLore(lore);
         displayDank.setItemMeta(displayMeta);
         return displayDank;
