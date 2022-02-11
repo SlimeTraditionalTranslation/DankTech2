@@ -6,6 +6,8 @@ DankTech2 是作者以前的插件 DankTech 的一個完整的、僅限 Slimefun
 
 DanchTech 本身就是試圖以插件的形式重新創建 [Dank Storage](https://www.curseforge.com/minecraft/mc-mods/dank-storage) 模組, [/dank/null](https://www.curseforge.com/minecraft/mc-mods/dank-null) 和 OpenBlocks /dev/null.
 
+## 下載 丹克科技2
+
 > 此為**非官方**版本, 請勿在該作者問題追蹤內回報! <br>
 > [原作連結](https://github.com/Sefiraat/DankTech2) | [非官方Discord](https://discord.gg/GF4CwjFXT9)
 
